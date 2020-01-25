@@ -1,0 +1,36 @@
+body
+{
+	text-align: center;
+}
+
+table
+{
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+	text-align: center;
+}
+h1,h2{
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+td, th
+{
+	border: 2px solid black;
+	padding: 8px;
+}
+
+td.text
+{
+	text-align: left;
+}
+
+tr:nth-child(even)
+{
+	background-color: #DDDDDD;
+}
+
+
+
